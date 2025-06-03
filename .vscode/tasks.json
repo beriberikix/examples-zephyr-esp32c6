@@ -14,7 +14,7 @@
         "-p",
         "auto",
         "-b",
-        "nucleo_c031c6",
+        "esp32c6_devkitc/esp32c6/hpcore",
         "app/"
       ],
       "problemMatcher": [
@@ -45,7 +45,7 @@
     {
       "id": "board",
       "type": "promptString",
-      "default": "nucleo_c031c6",
+      "default": "esp32c6_devkitc/esp32c6/hpcore",
       "description": "See https://docs.zephyrproject.org/latest/boards/index.html"
     },
     {

@@ -2,6 +2,7 @@
 
 west init -l app
 west update --narrow -o=--depth=1
+west blobs fetch hal_espressif
 west zephyr-export
 pip install -r deps/zephyr/scripts/requirements-base.txt
 west completion bash > $HOME/west-completion.bash
