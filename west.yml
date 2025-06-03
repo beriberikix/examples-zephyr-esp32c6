@@ -15,5 +15,4 @@ manifest:
         path-prefix: deps
         name-allowlist:
           - zephyr
-          - cmsis
-          - hal_stm32
+          - hal_espressif
